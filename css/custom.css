@@ -30,6 +30,23 @@
   border-bottom: 1px solid #EEE;
 }
 
-.estdata-list {
+.estdata-list, .supplies-list {
+  padding-top: 2em;
   list-style: outside none none;
+}
+
+.estdata-list-row-label, .supplies-list-row {
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.estdata-list-row-data {
+  font-size: 12px;
+  padding-left: 1em;
+  line-height: 1em;
+}
+
+.supplies-list-row {
+  line-height: 1em;
 }

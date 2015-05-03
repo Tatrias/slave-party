@@ -4,11 +4,11 @@ Game["entities"] = ( function () {
     $.getScript("js/entities/drinks.js");
     $.getScript("js/entities/locations.js");
     $.getScript("js/entities/establishment.js");
-  }
+  };
   
   return {
     init : init
-  }
+  };
 
 })();
 

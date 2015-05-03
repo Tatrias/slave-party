@@ -1,6 +1,6 @@
 Game.entities["establishment"] = (function () {
 
-  function init() {}
+  function init() {};
 
   function Establishment () {
     this.name = "";
@@ -11,12 +11,12 @@ Game.entities["establishment"] = (function () {
     this.longevity = 0;
     this.inventory = new Object();
     this.location = null;
-  }
+  };
   
   return {
     init : init,
     Establishment : Establishment
-  }
+  };
 
 })();
 
