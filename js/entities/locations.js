@@ -1,4 +1,4 @@
-var Game.entities["locations"] = new Object();
+var Game.entities["locations"] = {};
 
 var Game.entities.locations["Location"] = (function(name, population) {
   this.name = name;
