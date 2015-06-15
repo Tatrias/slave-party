@@ -1,6 +1,6 @@
-Game.entities["drinks"] = new Object();
+var Game.entities["drinks"] = new Object();
 
-Game.entities.drinks["Drink"] = (function(name) {
+var Game.entities.drinks["Drink"] = (function(name) {
 	this.name
 });
 

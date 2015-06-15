@@ -1,4 +1,4 @@
-Game.entities["establishment"] = (function () {
+var Game.entities["establishment"] = (function () {
 
   function init() {};
 

@@ -1,6 +1,6 @@
-Game.entities["locations"] = new Object();
+var Game.entities["locations"] = new Object();
 
-Game.entities.locations["Location"] = (function(name, population) {
+var Game.entities.locations["Location"] = (function(name, population) {
   this.name = name;
   this.population = population;
 });
@@ -15,7 +15,7 @@ Game.entities.locations["list"] = {
   SUIBNES_FRENZY	: new Game.entities.locations.Location("Suibne's Frenzy", 470)
 };
   
-Game.entities.locations["travelRoutePrices"] = [
+var Game.entities.locations["travelRoutePrices"] = [
   [0,0,0,0,0,0,0],
   [0,0,0,0,0,0,0],
   [0,0,0,0,0,0,0],

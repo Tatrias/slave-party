@@ -3,11 +3,25 @@
   font-size: 11px;
   font-weight: 600;
   letter-spacing: 0.2rem;
-  margin-right: 35px;
+  padding-left: 1em;
+  padding-right: 1em;
   text-decoration: none;
   line-height: 6.5rem;
   color: #222;
+  display: block;
 }
+
+.navbar-link:hover {
+    background: rgb(149,149,149); /* Old browsers */
+    background: -moz-linear-gradient(top, rgb(149,149,149) 0%, rgb(13,13,13) 46%, rgb(1,1,1) 50%, rgb(10,10,10) 53%, rgb(78,78,78) 76%, rgb(56,56,56) 87%, rgb(27,27,27) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(149,149,149)), color-stop(46%,rgb(13,13,13)), color-stop(50%,rgb(1,1,1)), color-stop(53%,rgb(10,10,10)), color-stop(76%,rgb(78,78,78)), color-stop(87%,rgb(56,56,56)), color-stop(100%,rgb(27,27,27))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgb(149,149,149) 0%,rgb(13,13,13) 46%,rgb(1,1,1) 50%,rgb(10,10,10) 53%,rgb(78,78,78) 76%,rgb(56,56,56) 87%,rgb(27,27,27) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgb(149,149,149) 0%,rgb(13,13,13) 46%,rgb(1,1,1) 50%,rgb(10,10,10) 53%,rgb(78,78,78) 76%,rgb(56,56,56) 87%,rgb(27,27,27) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgb(149,149,149) 0%,rgb(13,13,13) 46%,rgb(1,1,1) 50%,rgb(10,10,10) 53%,rgb(78,78,78) 76%,rgb(56,56,56) 87%,rgb(27,27,27) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgb(149,149,149) 0%,rgb(13,13,13) 46%,rgb(1,1,1) 50%,rgb(10,10,10) 53%,rgb(78,78,78) 76%,rgb(56,56,56) 87%,rgb(27,27,27) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#1b1b1b',GradientType=0 ); /* IE6-9 */
+}
+
 
 .navbar-item {
   position: relative;
@@ -19,7 +33,6 @@
     list-style: outside none none;
     margin-bottom: 0px;
 }
-
 .navbar, .navbar-spacer {
   display: block;
   width: 100%;
@@ -31,7 +44,6 @@
 }
 
 .estdata-list, .supplies-list {
-  padding-top: 2em;
   list-style: outside none none;
 }
 
@@ -49,4 +61,10 @@
 
 .supplies-list-row {
   line-height: 1em;
+}
+
+/****************/
+
+#est-view, #char-view, #cal-view {
+  display: none;
 }

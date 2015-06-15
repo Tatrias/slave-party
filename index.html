@@ -18,20 +18,55 @@
       <nav class="navbar">
         <div class="container">
           <ul class="navbar-list">
-            <li class="navbar-item"><a class="navbar-link" href="#">Establishments</a></li>
-            <li class="navbar-item"><a class="navbar-link" href="#">Characters</a></li>
-            <li class="navbar-item"><a class="navbar-link" href="#">Calendar</a></li>
+            <li class="navbar-item"><a id="home-button" class="navbar-link" href="#">Home</a></li>
+            <li class="navbar-item"><a id="est-button" class="navbar-link" href="#">Establishments</a></li>
+            <li class="navbar-item"><a id="char-button" class="navbar-link" href="#">Characters</a></li>
+            <li class="navbar-item"><a id="cal-button" class="navbar-link" href="#">Calendar</a></li>
           </ul>
         </div>
       </nav>
       <!-- END NAVBAR -->
       <!-- CONTENT GRID -->
-      <div class="row">
+      <!-- VIEWS -->
+      <!-- HOME -->
+      <div id="home-view" class="row">
+        <div class="seven columns">
+          <h5>Location</h5>
+          <img style="width:100%;" src="images/desertholder.jpg" alt="View"></img>
+        </div>
+        <div class="five columns">
+          <div class="row">
+            <ul class="supplies-list">
+              <h2>12:00</h2>
+            </ul>
+          </div>
+          <div class="row">
+            Vivamus fermentum semper porta. Nunc diam velit, adipiscing ut
+            tristique vitae, sagittis vel odio. Maecenas convallis ullamcorper
+            ultricies. Curabitur ornare, ligula semper consectetur sagittis, 
+            nisi diam iaculis velit, id fringilla sem nunc vel mi. Nam dictum, 
+            odio nec pretium volutpat, arcu ante placerat erat, non tristique 
+            elit urna et turpis. Quisque mi metus, ornare sit amet fermentum et,
+            tincidunt et orci. Fusce eget orci a orci congue vestibulum. Ut 
+            dolor diam, elementum et vestibulum eu, porttitor vel elit. 
+            Curabitur venenatis pulvinar tellus gravida ornare. Sed et erat 
+            faucibus nunc euismod ultricies ut id justo. Nullam cursus suscipit 
+            nisi, et ultrices justo sodales nec. Fusce venenatis facilisis 
+            lectus ac semper. Aliquam at massa ipsum. Quisque bibendum purus 
+            convallis nulla ultrices ultricies. Nullam aliquam, mi eu aliquam
+            tincidunt, purus velit laoreet tortor, viverra pretium nisi quam 
+            vitae mi. Fusce vel volutpat elit. Nam sagittis nisi dui.
+          </div>
+        </div>
+      </div>
+      <!-- ESTABLISHMENT -->
+      <div id="est-view" class="row">
         <div class="seven columns">
           <h5>Est. name</h5>
           <img style="width:100%;" src="images/breoholder.gif" alt="Establisment map"></img>
         </div>
         <div class="two columns">
+          <h6>Supplies</h6>
           <ul class="supplies-list">
             <li class="supplies-list-row">null: 0 u.</li>
             <li class="supplies-list-row">null: 0 u.</li>
@@ -46,6 +81,7 @@
           </ul>
         </div>
         <div class="three columns">
+          <h6>Stats</h6>
           <ul class="estdata-list">
             <li class="estdata-list-row-label">Cash</li>
             <li class="estdata-list-row-data"><span class="data-field" id="cash-field">$$ 0</span></li>
@@ -62,6 +98,13 @@
           </ul>
         </div>
       </div>
+      <!-- CHARACTERS -->
+      <div id="char-view" class="row">
+      </div>
+      <!-- CALENDAR -->
+      <div id="cal-view" class="row">
+      </div>
+      <!-- END VIEWS -->
       <div class="row">
         <div class="three columns">
           <img src="images/placeholder.gif" alt="Player avatar"></img>
